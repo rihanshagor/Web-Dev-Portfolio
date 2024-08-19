@@ -227,3 +227,60 @@ footer input[type="email"] {
     padding: 18px 0;
     margin-bottom: 40px;
    }
+
+   @media screen and (max-width:576px){
+        .banner {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        nav {
+            flex-direction: column;
+        }
+        .banner-profile-pic {
+            width: 370px;
+        }
+        .banner-content {
+            margin: 0;
+            text-align: end;
+        }
+        .header {
+            background-color: #FFF8F3;
+        }
+        .nav {
+            display: inline-block;
+        }
+        .about {
+            margin: 0;
+            padding: 50px;
+        }
+        .section-description {
+            text-align: justify;
+        }
+        .about-items {
+           display: inline; 
+        }
+        .skills p {
+            padding: 40px;
+        }
+        .resume .section-title {
+            font-size: 30px;
+            color: #181818;
+        }
+        .resume-column {
+            margin: 0;
+        }
+         
+        .footer {
+            display: flex;
+            padding: 0;
+            gap: 20px;
+            align-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+        }
+        .skills-container {
+            gap: 5px;
+            flex-direction: column;
+        }
+    }
