@@ -229,6 +229,7 @@ footer input[type="email"] {
    }
 
    @media screen and (max-width:576px){
+
         .banner {
             display: flex;
             flex-direction: column;
@@ -253,6 +254,11 @@ footer input[type="email"] {
         .about {
             margin: 0;
             padding: 50px;
+        }
+        .about-content {
+            background: #ffffff;
+            border: 1px solid black;
+            padding: 0px 10px;
         }
         .section-description {
             text-align: justify;
